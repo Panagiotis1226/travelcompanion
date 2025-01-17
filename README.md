@@ -91,6 +91,20 @@ Common issues and solutions:
 2. **Image upload fails**: Verify Firebase Storage rules
 3. **Location not updating**: Check location permissions in device settings
 
+## Known Bugs and Fixes
+
+1. **BoringSSL Compilation Error**: 
+   When compiling the app, you might encounter a -G error related to BoringSSL requirement for Firebase. 
+   
+   **Fix**: Use these specific Firebase package versions or higher:
+   ```yaml
+   dependencies:
+     firebase_core: ^3.10.0
+     firebase_auth: ^5.4.0
+     cloud_firestore: ^5.6.1
+     firebase_storage: ^12.4.0
+   ```
+
 ## Contributing
 
 1. Fork the repository
