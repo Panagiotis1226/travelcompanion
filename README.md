@@ -116,3 +116,7 @@ Common issues and solutions:
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details
+
+## Work in Progress
+
+- **Android App Issues**: Currently working on fixes for Android-specific problems
